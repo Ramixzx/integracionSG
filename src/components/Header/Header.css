@@ -1,0 +1,14 @@
+.header-container {
+  width: 100%;
+  min-width: 32rem;
+  height: 7.2rem;
+  background-color: var(--background-space-guru);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-logo {
+  width: 15rem;
+  height: 2.7rem;
+}

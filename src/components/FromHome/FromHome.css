@@ -1,0 +1,21 @@
+.fromHome-container {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  width: 32.8rem;
+}
+
+.fromHome--image {
+  width: 32.7rem;
+  object-fit: cover;
+}
+
+.fromHome--title {
+  padding-top: 4rem;
+  padding-bottom: 1.6rem;
+  font-size: 2.6rem;
+  color: #2F2C7C;
+}
+
+.fromHome--p {
+  color: #515070;
+}
