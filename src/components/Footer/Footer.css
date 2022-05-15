@@ -1,0 +1,10 @@
+.footer-container {
+  width: 100%;
+  min-width: 32rem;
+  height: 19.4rem;
+  background-color: #FAFAFA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2rem 5rem -1rem inset, rgba(0, 0, 0, 0.3) 0rem 1.4rem 3rem -1.2rem inset;
+}

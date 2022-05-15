@@ -14,6 +14,27 @@ const HowWorks = () => {
             <p className='how-card--p'>Un precio en base a tus objetos</p>
           </div>
         </article>
+        {/* <article className='howWorks-card'>
+          <img className='how-card--image' src={CotizaTuGuardado} alt="" />
+          <div>
+            <h4 className='how-card--title'>Cotiza tu guardado</h4>
+            <p className='how-card--p'>Un precio en base a tus objetos</p>
+          </div>
+        </article>
+        <article className='howWorks-card'>
+          <img className='how-card--image' src={CotizaTuGuardado} alt="" />
+          <div>
+            <h4 className='how-card--title'>Cotiza tu guardado</h4>
+            <p className='how-card--p'>Un precio en base a tus objetos</p>
+          </div>
+        </article>
+        <article className='howWorks-card'>
+          <img className='how-card--image' src={CotizaTuGuardado} alt="" />
+          <div>
+            <h4 className='how-card--title'>Cotiza tu guardado</h4>
+            <p className='how-card--p'>Un precio en base a tus objetos</p>
+          </div>
+        </article> */}
         <div className='slider-control'>
           <span>.</span>
           <span>.</span>
