@@ -5,10 +5,10 @@ import './Form.css'
 const Form = () => {
   return ( 
     <>
-    <section className='section-form--container'>
-      <img className='section--image' src={imageFormSection} alt="Una persona observando que objetos guardar en su baulera" />
-      <div className='formxd'>
-        <h3 className='form--header'>Pedinos tu presupuesto</h3>
+    <section className='section-form'>
+      <img className='section--image' src={imageFormSection} alt="Una persona observando que objetos guardar en Space Guru" />
+      <div className='form--container'>
+        <h2 className='form--header'>Pedinos tu presupuesto</h2>
         <form className='form--content'>
           <div>
             <label className='form--label' htmlFor="inputName">TU NOMBRE</label>

@@ -1,7 +1,7 @@
 .payToSave-container {
   margin-top: 4rem;
   margin-bottom: 4rem;
-  width: 32.8rem;
+  width: 100%;
 }
 
 .payToSave--image {
@@ -20,4 +20,34 @@
 .payToSave--p {
   padding: 0 2rem;
   color: #515070;
+}
+
+@media (min-width: 970px) {
+  .payToSave-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 48rem;
+  }
+  
+  .payToSave--image {
+    width: 50%;
+    max-width: 47.5rem;
+  }  
+  
+  .payToSave-text {
+    width: 50%;
+    text-align: start;
+    max-width: 40rem;
+  }
+
+  .payToSave--title {
+    font-size: 3.2rem;
+    padding: 0;
+    padding-bottom: 1.6rem;
+  }
+  
+  .payToSave--p {
+    padding: 0;
+  }
 }

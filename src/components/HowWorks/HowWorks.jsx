@@ -6,11 +6,11 @@ const HowWorks = () => {
   return ( 
     <>
       <section className='howWorks-container--slider'>
-        <h2 className='howWorks-title'>¿Cómo funciona?</h2>
-        <article className='howWorks-card'>
-          <img className='how-card--image' src={CotizaTuGuardado} alt="" />
+        <h2 className='howWorks--title'>¿Cómo funciona?</h2>
+        <article className='howWorks--card'>
+          <img className='how-card--image' src={CotizaTuGuardado} alt="Mueble" />
           <div>
-            <h4 className='how-card--title'>Cotiza tu guardado</h4>
+            <h3 className='how-card--title'>Cotiza tu guardado</h3>
             <p className='how-card--p'>Un precio en base a tus objetos</p>
           </div>
         </article>

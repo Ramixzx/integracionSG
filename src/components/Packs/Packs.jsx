@@ -7,10 +7,10 @@ const Packs = () => {
     <>
       <section className='packs-container'>
         <h2 className='packs--title'>Packs orientativos</h2>
-        <p className='packs--p'>Te brindamos unos packs de acuerdoa las necesidades de nuestros clientes</p>
+        <p className='packs--p'>Te brindamos unos packs de acuerdo a las necesidades más usuales de nuestros clientes.</p>
         <article className='packs--cards'>
           <img className='packs--cards-img' src={imageWinterSports} alt="" />
-          <h4 className='packs--cards-title'>Deportes de invierno</h4>
+          <h3 className='packs--cards-title'>Deportes de invierno</h3>
           <ul className='packs--cards-list'>
             <li className='packs--cards-list_item'>Sofá de 2 cuerpos</li>
             <li className='packs--cards-list_item'>Bicicleta</li>

@@ -1,12 +1,16 @@
-.remember-container {
+.remember--container {
   margin-top: 4rem;
   margin-bottom: 4rem;
-  width: 32.8rem;
+  width: 100%;
 }
 
 .remember--image {
   width: 32.7rem;
   object-fit: cover;
+}
+
+.remember--text {
+  padding: 0 1.6rem
 }
 
 .remember--title {
@@ -18,4 +22,35 @@
 
 .remember--p {
   color: #515070;
+}
+
+@media (min-width: 970px) {
+  .remember--container {
+    height: 48rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+    text-align: start;
+  }
+  
+  .remember--image {
+    width: 50%;
+    max-width: 46.5rem;
+  }
+  
+  .remember--text {
+    width: 50%;
+    max-width: 48.3rem;
+
+  }
+
+  .remember--title {
+    font-size: 3.2rem;
+    max-width: 46rem;
+  }
+
+  .remember--p {
+    max-width: 39rem;
+  }
 }

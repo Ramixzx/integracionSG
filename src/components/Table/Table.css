@@ -18,6 +18,7 @@
 
 .table--container {
   width: 94%;
+  max-width: 91.8rem;
   display: grid;
   grid-template-columns: minmax(14.5rem, 30.6rem) repeat(2, minmax(9.25rem, 30.6rem));
   grid-template-rows: 8rem repeat(6, 6.4rem) 9rem;
@@ -33,9 +34,11 @@
 .table--container div {
   width: 100%;
   height: 100%;
-  justify-self: center;
-  align-self: center;
   padding-top: 2rem;
+}
+
+.table--container img {
+  place-self: center;
 }
 
 .firstItemList {

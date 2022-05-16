@@ -11,7 +11,7 @@
 }
 
 .contanct--cards {
-  width: 70%;
+  width: 24.4rem;
   height: 20%;
   display: flex;
   justify-content: space-between;
@@ -31,4 +31,11 @@
 .contanct--cards p :nth-child(1){
   font-weight: 700;
   padding-bottom: 0.4rem;
+}
+
+@media (min-width: 970px) {
+  .section-contact--container {
+    height: 16rem;
+    flex-direction: row;
+  }  
 }

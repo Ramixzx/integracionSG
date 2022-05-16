@@ -3,8 +3,19 @@
   min-width: 32rem;
   height: 19.4rem;
   background-color: #FAFAFA;
+  padding: 4.7rem 0;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2rem 5rem -1rem inset, rgba(0, 0, 0, 0.3) 0rem 1.4rem 3rem -1.2rem inset;
+  box-shadow: rgba(0, 0, 0, 0.2) 0rem, 100rem 1rem -1rem inset, rgba(0, 0, 0, 0.2) 0rem 1.4rem 3rem -1.2rem inset;
+}
+
+@media (min-width: 970px) {
+  .footer-container {
+    height: 14rem;
+    flex-direction: row;
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
 }

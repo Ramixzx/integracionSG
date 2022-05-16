@@ -1,7 +1,6 @@
 .howWorks-container--slider {
   width: 100%;
   height: 56rem;
-  padding-top: 7.2rem;
   color: #2F2C7C;
   background-color: #FAFAFA;
   display: flex;
@@ -10,11 +9,11 @@
   align-items: center;
 }
 
-.howWorks-title {
+.howWorks--title {
   font-size: 2.6rem;
 }
 
-.howWorks-card {
+.howWorks--card {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -32,10 +31,14 @@
 
 .how-card--title {
   padding-bottom: 1.2rem;
-  font-size: 1.8rem;
+  font-size: 1.8rem
 }
 
 @media (min-width: 970px) {
+  .howWorks--title {
+    font-size: 4rem;
+  }
+
   .slider-control {
     display: none;
   }

@@ -7,8 +7,10 @@ const PayToSave = () => {
     <>
       <section className='payToSave-container'>
         <img  className='payToSave--image' src={PayToSaveImage} alt="" />
-        <h2 className='payToSave--title'>Pagás por lo que guardás</h2>
-        <p className='payToSave--p'>Por los exactos metros cúbicos que ocupan tus objetos.</p>
+        <div className='payToSave-text'>
+          <h2 className='payToSave--title'>Pagás por lo que guardás</h2>
+          <p className='payToSave--p'>Por los exactos metros cúbicos que ocupan tus objetos.</p>
+        </div>
       </section>
     </>
    );
